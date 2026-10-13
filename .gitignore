@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Demo photographs are not committed — drop your own into public/photos/
+# (see src/components/demo.tsx for the expected filenames).
+public/photos/*
+!public/photos/.gitkeep
+
+# Original source photographs, kept local only.
+旅游照片轮播/
+
+# Local assistant workspace.
+.workbuddy-ai/
